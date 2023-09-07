@@ -1,0 +1,131 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>University Website Design - Easy Tutorials</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="peace_images/GSE-02.png"></a>
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="workshop.html">OUR SCHOOLS</a></li>
+                    <li><a href="resources.html">RESOURCES</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                  
+                    <div class="dropdown">
+                        <button class="dropbtn"><a href="index.html">ENG</a></button>
+                        <div class="dropdown-content">
+                          <a href="kz_main.html">ҚАЗ</a>
+                          <a href="rus_main.html">РУС</a>
+                        </div>
+                      </div>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+            <h1>For Schools</h1>
+    </section>
+    
+<!------- blog content -------->
+<section class="blog-content">
+    <div class="row">
+    <div class="blog-left">
+        <img src="peace_images/Wanttojoin.png">
+        <h2>What should you know before applying?</h2>
+        
+        <p>Research study on "Positive Peace Education" explores the possibilities for culturally relevant Positive Peace Education in Kazakhstan. Participants of the project will be invited to join several days of intensive workshops that intend to develop understanding of peace in school context, introducing Positive Peace and facilitating integration of Peace in schools. This research is undertaken in collaboration with Nazarbayev University Graduate School of Education (NUGSE), the University of Cambridge, and the National Academy of Education named after Altynsarin (NAE). The PI of the project is Lynne Parmenter, professor, NUGSE; Co-PIs of the project are Hilary Cremin, dean, Faculty of Education at Cambridge; Madina Tynybayeva, President of NAE; and Aida Akhmetzhanova, vice President of NAE. </p>
+        <br>
+        <h2>What are we expecting from you?</h2>
+        <p>In this project, the team of school principal and teachers will be asked to: <br> participate in workshops on “Facilitating Positive Peace Education”, "Action Research", "Ethics" <br> conduct action research in your school site <br> bridge the connections with students, parents and research team <br> participate in semi-structured interviews <br> share project outcomes related to Peace Facilitation in your school.</p>
+    </div>
+        
+    <div class="blog-right">
+        
+        
+            <h3>Reguirements</h3>
+            <div>
+                <span>Mainstream school</span>
+            </div>
+            <div>
+                <span>Primary-secondary classroom</span>
+            </div>
+            <div>
+                <span>Who:</span>
+            </div>
+            <div>
+                <span>School administration</span>
+            </div>
+            <div>
+                <span>All Teachers</span>
+            </div>
+        </div> 
+    
+    </div>
+    <div class="comment-box">
+        <h3>Want to join?</h3>
+        <form class="comment-form">
+                <form method="post" action="interest.form.php">
+                <input type="text" name="name" placeholder="Enter Name" required>
+                <input type="email" name="email" placeholder="Enter email" required>
+                <textarea rows="5" name="message" placeholder="Your Message"></textarea required>
+                <button type="submit" class="hero-btn red-btn">Send</button>
+        </form>
+    </div>
+    </section>
+<!------- about us content -------->
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>Pilot School: Binom</h1>     
+            <p>BINOM SCHOOL is a unique project in the field of education, implemented through 
+                the mechanism of public-private partnership between the innovative construction 
+                holding BI Group and the akimat of Astana. Education in schools is based on the 
+                principle of Amanat - respect, care, responsibility, diligence, improvement based 
+                on the works of the great orientalist philosopher Abu Nasr al-Farabi. <br>
+                Each BINOM school is a 5-storey building with 127 classrooms, 9 advanced 
+                laboratories in physics, chemistry, biology, nano- and biotechnologies.</p>
+            <a href="https://sites.google.com/nu.edu.kz/binom-positivepeace-kz/home?authuser=1" class="hero-btn red-btn">BINOM teachers</a>
+        </div>
+        <div class="about-col">
+            <img src="peace_images/binom.png">
+        </div>
+    </div>    
+</section>  
+    
+<!-------- footer ---------->
+
+<section class="footer">
+    <h4>CARCEIT, NU, GSE</h4>
+    <p>Republic of Kazakhstan, 010000, <br>Astana city, 53 Kabanbay Batyr Ave.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>made with <i class="fa fa-heart-o"></i> by Assylzhan</p>
+</section>    
+  
+  
+<!----JavaScript for toggle menu---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script>  
+    
+</body>
+</html>    

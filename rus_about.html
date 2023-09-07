@@ -1,0 +1,120 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Peace project</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="peace_images/GSE-02.png"></a>
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="rus_main.html">ГЛАВНАЯ</a></li>
+                    <li><a href="rus_about.html">ПРОЕКТ</a></li>
+                    <li><a href="rus_workshop.html">ШКОЛЫ</a></li>
+                    <li><a href="rus_resources.html">РЕСУРСЫ</a></li>
+                    <li><a href="rus_contact.html">КОНТАКТЫ</a></li>
+              
+                <div class="dropdown">
+                    <button class="dropbtn"><a href="index.html">ENG</a></button>
+                    <div class="dropdown-content">
+                      <a href="kz_main.html">ҚАЗ</a>
+                      <a href="rus_main.html">РУС</a>
+                    </div>
+                  </div>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>   
+            <h1>О мире</h1>
+    </section>
+    
+    
+<!---------- course 2 ----------->
+<section class="course2">
+    <h1>МИР</h1>
+    <div class="row2">
+        <div class="course-col2">
+            <h3>Позитивный Мир</h3>
+            <p> Позитивный мир в школах может быть достигнут за счет мудрого и комплексного 
+                использования поддержания мира, разрешение конфликта и построения мира.</p>
+        </div>
+        <div class="course-col2">
+            <h3>Негативный Мир</h3>
+            <p>Прямое насилие решается в первую очередь поддержанием мира, что ведет к негативному миру.</p>
+        </div>
+    </div>     
+</section>
+<!---------- course 1 ----------->
+<section class="course">
+    <h1>Мир в контексте образования</h1>
+    <p>Уровни Мира:</p>
+    <div class="row">
+        <div class="course-col">
+            <h3>Поддержание Мира</h3>
+            <p>Поддержание мира в школах использует меры для создания порядка и ограничения вероятности 
+                прямого насилия. Такие меры включают установление и обеспечение соблюдения правил с 
+                последствиями их нарушения. <br> <i> Деятельность и меры этого типа Мира решают вопрос, 
+                как нам уберечь членов нашей школы от насилия?</i></p>
+        </div>
+        <div class="course-col">
+            <h3>Установление Мира</h3>
+            <p>Установление Мира в школах относится к тому, как школа справляется с конфликтом, когда он 
+                неизбежно возникает. <br><i> Он отвечает на вопрос, как мы справляемся с
+                конфликтами в нашей школе?</i></p>
+        </div>
+        <div class="course-col">
+            <h3>Построение Мира</h3>
+            <p>Построение Мира в школах связано с более широким стремлением к социальной справедливости 
+                и включает мероприятия, которые развивают просоциальные установки и модели поведения для 
+                создания сообщества заботы. <br><i> Оно отвечает на вопрос, как мы даем 
+                возможность нашим ученикам и преподавателям воплощать и поддерживать мир сейчас и в 
+                будущем?</i></p>
+        </div>
+    </div>   
+    <div style="text-align:center">
+        <h1>Презентация Позитивный Мир</h1>
+        <iframe src="resources/Russian version - Positive Peace In Schools -2.pdf" frameborder="0" height="500px" width="98%"></iframe>
+    </div>
+    <div style="text-align:center">
+        <h1>Матрица Позитивный Мир</h1>
+        <iframe src="resources/Positive Peace Matrix (EN, KZ, RU).pdf" frameborder="0" height="500px" width="98%"></iframe>
+    </div>
+    <div class="youtube-embed">
+        <h1>Позитивный Мир в Школах</h1>
+        <iframe width="98%" height="500px" src="https://www.youtube.com/embed/Zzb2jd1LT1s?si=5G7JcTcwdEfMgCiR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>  
+</section>
+<!-------- footer ---------->  
+<section class="footer">
+    <h4>CARCEIT, НУ, ВШО</h4>
+    <p>Республика Казахстан, 010000, <br>город Астана, 53 Кабанбай батыра проспект.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>made with <i class="fa fa-heart-o"></i> by Assylzhan</p>
+</section>    
+  
+  
+<!----JavaScript for toggle menu---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script> 
+    
+</body>
+</html>    

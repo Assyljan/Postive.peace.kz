@@ -1,0 +1,118 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>University Website Design - Easy Tutorials</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="peace_images/GSE-02.png"></a>
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="workshop.html">OUR SCHOOLS</a></li>
+                    <li><a href="resources.html">RESOURCES</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                
+                    <div class="dropdown">
+                        <button class="dropbtn"><a href="index.html">ENG</a></button>
+                        <div class="dropdown-content">
+                          <a href="kz_main.html">ҚАЗ</a>
+                          <a href="rus_main.html">РУС</a>
+                        </div>
+                      </div>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>   
+            <h1>About Peace</h1>
+    </section>
+    
+    
+<!---------- course 2 ----------->
+<section class="course2">
+    <h1>Peace</h1>
+    <div class="row2">
+        <div class="course-col2">
+            <h3>Positive Peace</h3>
+            <p> positive peace in schools can be achieved through the wise and integrated use of peace-keeping, 
+                peace-making and peace- building</i></p>
+        </div>
+        <div class="course-col2">
+            <h3>Negative Peace</h3>
+            <p>Direct violence is addressed primarily by peace-keeping which leads towards negative peace</p>
+        </div>
+    </div>     
+    </section>
+<!---------- course 1 ----------->
+<section class="course">
+    <h1>Peace in education</h1>
+    <p>Levels of Peace:</p>
+    <div class="row">
+        <div class="course-col">
+            <h3>Peace Keeping</h3>
+            <p>Peace-keeping in schools uses measures to create order and to limit the likelihood 
+                of direct violence occurring. Such measures include the establishment and enforcement 
+                of rules with consequences for their infringement. <br> <i>Peace-keeping activities and measures 
+                address the question, how do we keep the members of our school safe from harm?</i></p>
+        </div>
+        <div class="course-col">
+            <h3>Peace Making</h3>
+            <p>Peace-making in schools relates to the ways in which the school deals with conflict when it 
+                inevitably arises. <br><i>Peace-making addresses the question, how do we deal with conflict in our school?.</i></p>
+        </div>
+        <div class="course-col">
+            <h3>Peace Building</h3>
+            <p>Peace-building in schools relates to the broader ambition of social justice, and includes activities 
+                that develop pro-social attitudes and behaviours to build a community of care. <br><i>Peace-building 
+                addresses the question, how do we enable our students and staff to embody and enact 
+                peace now and in the future?.</i></p>
+        </div>
+    </div>     
+    <div style="text-align:center">
+        <h1>Positive Peace ppt</h1>
+        <iframe src="resources/Nazarbayev University - Positive Peace In Schools -2.pdf" frameborder="0" height="500px" width="98%"></iframe>
+    </div>
+    <div style="text-align:center">
+        <h1>Positive Peace Matrix</h1>
+        <iframe src="resources/Positive Peace Matrix (EN, KZ, RU).pdf" frameborder="0" height="500px" width="98%"></iframe>
+    </div>
+    <div class="youtube-embed">
+        <h1>Positive Peace in Schools</h1>
+        <iframe width="98%" height="500px" src="https://www.youtube.com/embed/Zzb2jd1LT1s?si=5G7JcTcwdEfMgCiR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+      </section>
+<!-------- footer ---------->  
+<section class="footer">
+        <h4>CARCEIT, NU, GSE</h4>
+        <p>Republic of Kazakhstan, 010000, <br>Astana city, 53 Kabanbay Batyr Ave.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>made with <i class="fa fa-heart-o"></i> by Assylzhan</p>
+</section>    
+  
+  
+<!----JavaScript for toggle menu---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script> 
+    
+</body>
+</html>    
